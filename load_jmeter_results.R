@@ -6,4 +6,8 @@ LoadJmeterCSV <- function(filepath) {
   #
   #  Returns:
   #
+  
+  data <- read.csv(paste("data/",filepath,sep = ""))
+                   
+  data
 }
