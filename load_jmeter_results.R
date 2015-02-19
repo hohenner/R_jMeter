@@ -11,3 +11,18 @@ LoadJmeterCSV <- function(filepath) {
                    
   data
 }
+
+SumResponseCode <- function(jmeterData) {
+  # parses a jMeter dataframe and returns a table of the respnose code 
+  #
+  #  Args:
+  #  filepath: path to the file to be loaded relative to the data directory
+  #
+  #  Returns:
+  #
+  
+  table(jmeterData$responseCode)
+  
+}
+
+SplitLabel
